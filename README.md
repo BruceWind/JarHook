@@ -1,5 +1,5 @@
 # Jar_Hook
-在利用gradlehook一个jar包内的一个方法，实现代码插桩。
+在利用ASM框架hook一个jar包内的一个方法，实现代码插桩。
 
 
 ``` java
