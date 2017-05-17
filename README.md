@@ -23,7 +23,9 @@ public class Hello {
 
 ### 集成到项目中如何配置这个参数
 
-['methodName': 'sayHello', 'methodDesc': '(Ljava/lang/String;)V'`
+```
+    ['methodName': 'sayHello', 'methodDesc': '(Ljava/lang/String;)V'
+```
 
 如上代码中参数类型格式是字节码格式，你直接用javac编译一个java文件生成class文件，用文本方式打开生成的.class文件就看到字节码了,字节码里的方法参数都会是类似这种的Lcom...。
 
