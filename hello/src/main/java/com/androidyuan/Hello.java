@@ -6,4 +6,9 @@ public class Hello {
     {
 
     }
+
+    public static void trasportPerson(Person person){
+
+    }
+
 }

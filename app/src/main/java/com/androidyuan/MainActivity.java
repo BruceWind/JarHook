@@ -15,12 +15,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Hello.sayHello("weizongwei5");
+        Hello.trasportPerson(new Person("bruce"));
     }
 
 
-    public static void hookXM(String name) {
-        Log.i("hookXM", "hello av8d,im "+name+".");
+    public static void hookWithObjParam(Object obj) {
+        if(obj instanceof Person) {
+            Log.i("hookXM", "hookWithObjParam,im " + ((Person)obj).name + ".");
+        }
+    }
+
+
+    public static void hookWithPerson(Person person) {
+        Log.i("hookXM", "hookWithPerson,im " + person.name + ".");
     }
 
 }
