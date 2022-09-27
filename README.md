@@ -1,7 +1,7 @@
 # JarHook
-An example about hooing a Jar.
+An example about hooking a Jar.
 
-[中文](https://github.com/BruceWind/Jar_Hook/blob/master/README_zh.md)
+[中文](https://github.com/BruceWind/JarHook/blob/master/README_zh.md)
 
 ### my goal
 In this project, I put `MainActivity.hookXM(String name);` into `sayHello`.
